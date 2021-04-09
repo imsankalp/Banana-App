@@ -1,0 +1,48 @@
+body{
+    background:url(images/minion.svg);
+    background-position: center;
+}
+
+#flex{
+    
+    flex-direction: column;
+    border:5px solid goldenrod;
+    width:480px;
+    height: 500px;
+    background: aqua;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+   
+}
+
+#outercontainer{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    
+}
+
+#btn-translate{
+    width:20vw;
+}
+
+#txt-input{
+    height: 88%;
+    width: 90%;
+    padding: 1rem;
+    display: block;
+    border-width: 0.5rem;
+    border-style:solid;
+    
+}
+
+#output{
+    height: 15vh;
+    width: 90%;
+    padding: 1rem;
+    display: block;
+    border-width: 0.5rem;
+    border-style:solid;
+   
+}
